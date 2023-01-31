@@ -1,0 +1,143 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.update {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.box {
+  width: 30%;
+  height: auto;
+  background-color: aliceblue;
+  padding: 5px 10px;
+  min-width: 500px;
+}
+.btn_group {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  & .btn {
+    padding: 5px 10px;
+    margin: 25px;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+.series {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  & .order {
+    margin-right: 20px;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image_wrap {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(216, 230, 243);
+  border-radius: 100px;
+  & .image {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.type {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  & *{
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+  }
+  & :not(:last-child) {
+      margin-right: 20px;
+    }
+  
+}
+.bug {
+  background-color: var(--Bug-color);
+}
+
+.dark {
+  background-color: var(--Dark-color);
+}
+
+.dragon {
+  background-color: var(--Dragon-color);
+}
+
+.electric {
+  background-color: var(--Electric-color);
+}
+
+.fairy {
+  background-color: var(--Fairy-color);
+}
+
+.fighting {
+  background-color: var(--Fighting-color);
+}
+
+.fire {
+  background-color: var(--Fire-color);
+}
+
+.flying {
+  background-color: var(--Flying-color);
+}
+
+.ghost {
+  background-color: var(--Ghost-color);
+}
+
+.grass {
+  background-color: var(--Grass-color);
+}
+
+.ground {
+  background-color: var(--Ground-color);
+}
+
+.ice {
+  background-color: var(--Ice-color);
+}
+
+.normal {
+  background-color: var(--Normal-color);
+}
+
+.poison {
+  background-color: var(--Poison-color);
+}
+
+.psychic {
+  background-color: var(--Psychic-color);
+}
+
+.types.rock {
+  background-color: var(--Rock-color);
+}
+
+.steel {
+  background-color: var(--Steel-color);
+}
+
+.water {
+  background-color: var(--Water-color);
+}

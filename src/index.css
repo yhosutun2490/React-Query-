@@ -1,3 +1,23 @@
+:root {
+  --Bug-color: #a8b820;
+  --Dark-color: #705848;
+  --Dragon-color: #7038f8;
+  --Electric-color: #f8d030;
+  --Fairy-color: #ee99ac;
+  --Fighting-color: #c03028;
+  --Fire-color: #f08030;
+  --Flying-color: #a890f0;
+  --Ghost-color: #705898;
+  --Grass-color: #78c850;
+  --Ground-color: #e0c068;
+  --Ice-color: #98d8d8;
+  --Normal-color: #a8a878;
+  --Poison-color: #a040a0;
+  --Psychic-color: #f85888;
+  --Rock-color: #b8a038;
+  --Steel-color: #b8b8d0;
+  --Water-color: #6890f0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
